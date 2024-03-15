@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     private UserService userService;
-    @GetMapping("user/{id")
+    @GetMapping("user/{id}")
     public User getUserById(){
         return userService.getUserById(1L);
     }

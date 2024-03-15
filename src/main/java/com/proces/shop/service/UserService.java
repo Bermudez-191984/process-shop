@@ -1,6 +1,7 @@
 package com.proces.shop.service;
 
 import com.proces.shop.model.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
